@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.button).setOnClickListener(View.OnClickListener {
             Log.d("Main activity", person.useComputer())
+            Log.d("Main activity", person.usePhone())
+
         })
     }
 }

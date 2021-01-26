@@ -11,7 +11,8 @@ import javax.inject.Singleton
         InternetModule::class,
     ComputerModule::class,
     PersonModule::class,
-    AppModule::class
+    AppModule::class,
+    PhoneModule::class
        ])
 
     interface AppComponent{

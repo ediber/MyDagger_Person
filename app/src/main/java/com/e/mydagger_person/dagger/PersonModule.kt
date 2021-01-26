@@ -1,8 +1,6 @@
 package com.e.mydagger_person.dagger
 
-import com.e.mydagger_person.Computer
-import com.e.mydagger_person.IPerson
-import com.e.mydagger_person.Person
+import com.e.mydagger_person.*
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -12,6 +10,6 @@ class PersonModule {
 
     @Singleton
     @Provides
-    fun providePerson (computer: Computer): IPerson = Person(computer)
+    fun providePerson (computer: Computer, phone: MyPhone): IPerson = Person(computer, phone)
 
 }
