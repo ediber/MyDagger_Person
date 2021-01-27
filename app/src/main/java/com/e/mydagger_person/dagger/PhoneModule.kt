@@ -1,7 +1,9 @@
 package com.e.mydagger_person.dagger
 
+import com.e.mydagger_person.Gmail
 import com.e.mydagger_person.MyInternet
 import com.e.mydagger_person.MyPhone
+import com.e.mydagger_person.SimCard
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
