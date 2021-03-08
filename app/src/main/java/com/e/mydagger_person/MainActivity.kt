@@ -6,6 +6,8 @@ import android.util.Log
 import android.view.View
 import javax.inject.Inject
 
+//
+
 class MainActivity : AppCompatActivity() {
 
     @Inject
